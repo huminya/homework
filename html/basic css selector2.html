@@ -1,0 +1,40 @@
+<html>
+	<head>
+           <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+           <title>css selector2</title>
+		   <style type="text/css">
+			   p {color:blue}
+			   .notice {color:red}
+			   #last {font-size:2em}
+			   #first p {color:green}
+			   #second > p{color:gray}
+			   #current + span {color:orange}
+		   </style>
+	</head>
+       <!--<body style="color:blue">*/-->
+		<p >红豆生南国，春来发几枝，若为君采撷，此物最相思</p>
+		<p >离离原上草，一岁一枯荣，野火烧不尽，春风吹又生</p>
+		<p id="last">最后一段</p>
+		<span class ="notice" >Black</span>
+		<div id ="first">
+			<p>红豆生南国，春来发几枝，若为君采撷，此物最相思</p>
+			<p>离离原上草，一岁一枯荣，野火烧不尽，春风吹又生</p>
+			<div>
+				<p>绿色</p>
+			</div>
+		</div>
+		<div id ="second">
+			<p>子元素：红豆生南国，春来发几枝，若为君采撷，此物最相思</p>
+			<p>子元素：离离原上草，一岁一枯荣，野火烧不尽，春风吹又生</p>
+			<div>
+				<p>后代元素：离离原上草，一岁一枯荣，野火烧不尽，春风吹又生</p>
+			</div>
+		</div>
+		 
+		<div id="current">元素</div>
+			<span>元素的兄弟</span>
+			<br/>
+			<span>元素的兄弟之兄弟</span>
+		</div>
+      </body>
+<ml>
