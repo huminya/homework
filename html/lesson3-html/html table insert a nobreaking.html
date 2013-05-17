@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<title> html:table insert a no-breaking</title>
+		<style>
+			h2{color:red}
+		</style>
+	</head>
+	<body>
+		<h2>HTML 插入一个空格</h2>
+		<p>每个表格由 table 标签开始。</p>
+		<p>每个表格行由 tr 标签开始。</p>
+		<p>每个表格数据由 td 标签开始</p>
+		<p>每个表格头部由 th 标签开始</p>
+		<p>插入空格使用no-breaking</p>
+		
+		<h4>带一个空格的表：</h4>
+		<table border="1">
+			<tr>
+				<th>姓名</th>
+				<th>no-breaking</th>
+				<th>效 果</th>
+			</tr>
+			<tr>
+				<td>小麦</td>
+				<td>带nobreaking</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>老冒</td>
+				<td>不带nobreaking</td>
+				<td></td>
+			</tr>
+		</table>
+		<p>正如您看到的，其中一个单元没有边框。这是因为它是空的。在该单元中插入一个空格后，仍然没有边框。</p>
+		<p>我们的技巧是在单元中插入一个 no-breaking 空格。</p>
+		<p>no-breaking 空格是一个字符实体。如果您不清楚什么是字符实体，请阅读关于字符实体的章节。</p>
+		<p>no-breaking 空格由和号开始 ("&")，然后是字符"nbsp"，并以分号结尾(";")。</p>
+
+		<p>
+			<a href="http://www.w3school.com.cn/example/html_examples.asp">参考
+		</p>
+		<hr>
+		<p>胡民雅 May17，2013</p>
+	</body>
+</html>

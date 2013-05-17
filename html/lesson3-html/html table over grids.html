@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<title> html:table over grids</title>
+		<style>
+			h2{color:red}
+		</style>
+	</head>
+	<body>
+		<h2>HTML 跨行或跨列的表格单元格</h2>
+		<p>跨行由 colspan 标签开始。</p>
+		<p>跨列由 rowspan 标签开始。</p>
+		
+		<h2>横跨2列的单元格</h2>
+		<table border="1">
+			<tr>
+				<th>姓名</th>
+				<th colspan="2">电话</th>
+			</tr>
+			<tr>
+				<td>小麦</td>
+				<td>家：12345678</td>
+				<td>办公：87654321</td>
+			</tr>
+			<tr>
+				<td>老冒</td>
+				<td>办公：87654321</td>
+				<td>家：12345678</td>
+			</tr>
+		</table>
+		<h2>跨2行的单元格</h2>
+		<table border="2">
+			<tr>
+				<th>姓名</th>
+				<td>小麦</td>
+				<td>老冒</td>
+			</tr>
+			<tr>
+				<th rowspan="2">电话</th>
+				<td>家：12345678</td>
+				<td>家：33335555</td>
+			</tr>
+			<tr>
+				<td>办公：87654321</td>
+				<td>办公：66667777</td>
+			</tr>
+		</table>
+		<p>
+			<a href="http://www.w3school.com.cn/example/html_examples.asp">参考
+		</p>
+		<hr>
+		<p>胡民雅 May17，2013</p>
+	</body>
+</html>
