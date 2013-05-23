@@ -1,0 +1,100 @@
+[0.001][INFO]:      ChromeDriver 26.0.1383.0 C:\RailsInstaller\Ruby1.9.3\bin\chromedriver.exe
+[0.527][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.detach": true,
+   "chromeOptions": {
+      "detach": true
+   },
+   "cssSelectorsEnabled": true,
+   "javascriptEnabled": true,
+   "nativeEvents": false,
+   "platform": "ANY",
+   "rotatable": false,
+   "takesScreenshot": false,
+   "version": ""
+}
+
+[0.527][INFO]:      Using named testing interface
+[1.124][INFO]:      Connected to Chrome successfully. Version: 26.0.1410.64
+[1.145][FINE]:      Command received (/session/3a1ace67b5f0d74290b0fddbc02b24e4)
+[1.145][FINE]:      Command finished (/session/3a1ace67b5f0d74290b0fddbc02b24e4) with response {
+   "sessionId": "3a1ace67b5f0d74290b0fddbc02b24e4",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "26.0.1383.0",
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "26.0.1410.64",
+      "webStorageEnabled": true
+   }
+}
+
+[1.158][FINE]:      Command received (/session/3a1ace67b5f0d74290b0fddbc02b24e4/url) with params {
+   "url": "http://www.baidu.com"
+}
+
+[1.158][FINER]:     Waiting for all views to stop loading...
+[1.159][FINER]:     Done waiting for all views to stop loading
+[1.581][FINER]:     Waiting for all views to stop loading...
+[1.585][FINER]:     Done waiting for all views to stop loading
+[1.585][FINE]:      Command finished (/session/3a1ace67b5f0d74290b0fddbc02b24e4/url) with response {
+   "sessionId": "3a1ace67b5f0d74290b0fddbc02b24e4",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[1.591][FINE]:      Command received (/session/3a1ace67b5f0d74290b0fddbc02b24e4/title)
+[1.591][FINER]:     Waiting for all views to stop loading...
+[1.591][FINER]:     Done waiting for all views to stop loading
+[1.594][FINER]:     Waiting for all views to stop loading...
+[1.594][FINER]:     Done waiting for all views to stop loading
+[1.594][FINE]:      Command finished (/session/3a1ace67b5f0d74290b0fddbc02b24e4/title) with response {
+   "sessionId": "3a1ace67b5f0d74290b0fddbc02b24e4",
+   "status": 0,
+   "value": "\u767E\u5EA6\u4E00\u4E0B\uFF0C\u4F60\u5C31\u77E5\u9053"
+}
+
+[1.605][FINE]:      Command received (/session/3a1ace67b5f0d74290b0fddbc02b24e4/url)
+[1.605][FINER]:     Waiting for all views to stop loading...
+[1.605][FINER]:     Done waiting for all views to stop loading
+[1.608][FINER]:     Waiting for all views to stop loading...
+[1.608][FINER]:     Done waiting for all views to stop loading
+[1.608][FINE]:      Command finished (/session/3a1ace67b5f0d74290b0fddbc02b24e4/url) with response {
+   "sessionId": "3a1ace67b5f0d74290b0fddbc02b24e4",
+   "status": 0,
+   "value": "http://www.baidu.com/"
+}
+
+[1.616][FINE]:      Command received (/session/3a1ace67b5f0d74290b0fddbc02b24e4/source)
+[1.616][FINER]:     Waiting for all views to stop loading...
+[1.616][FINER]:     Done waiting for all views to stop loading
+[1.623][FINER]:     Waiting for all views to stop loading...
+[1.623][FINER]:     Done waiting for all views to stop loading
+[1.623][FINE]:      Command finished (/session/3a1ace67b5f0d74290b0fddbc02b24e4/source) with response {
+   "sessionId": "3a1ace67b5f0d74290b0fddbc02b24e4",
+   "status": 0,
+   "value": "\u003C!DOCTYPE html\u003E\u003C!--STATUS OK--\u003E\u003Chtml\u003E\u003Chead\u003E\u003Cmeta http-equiv=\"content-type\" content=\"text/html;cha..."
+}
+
+[1.652][FINE]:      Command received (/session/3a1ace67b5f0d74290b0fddbc02b24e4/window)
+[1.653][FINE]:      Command finished (/session/3a1ace67b5f0d74290b0fddbc02b24e4/window) with response {
+   "sessionId": "3a1ace67b5f0d74290b0fddbc02b24e4",
+   "status": 0,
+   "value": {
+
+   }
+}
+

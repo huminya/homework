@@ -1,0 +1,6 @@
+ex20：f.readline()的用法不理解
+      f.seek()及其中的IO::SEEK_SET
+看这个blog    http://blog.sina.com.cn/s/blog_894de61a0100t4e6.html
+
+ex32: for i in (5 .. 10) 与(0 .. 5)效果一样，i的取值都是0-5. Rang这个class的定义。http://fuliang.iteye.com/blog/780193
+数组array的操作array.push,还有其它的。http://rloc2003.iteye.com/blog/1056328
