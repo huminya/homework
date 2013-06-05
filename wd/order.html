@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>Order: Advance Location</title>
+		<style>
+			.gray {border: 1px dashed gray; background-color:#ccc; width: 80%; margin: 1em auto;}
+			label {padding: 1em;}
+			<script>
+				function submit_order(){
+					items = document.getElementsByTagName('input');
+					order = '';
+					for(i = 0; i < items.length; i++){
+						if(items[i].checked){
+						// alert(items[i.name])
+						order = order + items[i].name + ' ';
+						}
+					}
+					if(order)
+						alert('Your order is:  ' + order);
+					else
+						alert('You orderd nothing!');
+				}
+			</script>
+		</style>
+	</head>
+	<body>
+		<div style = "border:1px dashed gray" class = "gray" name = "my">	
+			<p>This is a div.</p>
+			<a href= "#">This is a link.</a>
+		</div>
+		<div style = "border:1px dashed green" class = "green" name = "you">	
+			<p>That is another div.</p>
+			<a href= "#">That is another link.</a>
+		</div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</body>
+</html>

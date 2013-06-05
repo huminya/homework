@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title>Elements</title>
+		<style type = "text/css">
+			.div{border:1px dashed gray;margin: 1em auto;padding: 1em;width:70%}
+		</style>
+	</head>
+	<body>
+		<div class = "div">
+			<h3>Button</h3>
+			<label>submit button</label>
+			<input id = 'btn1' type = "submit" value = "input button" onclick = "alert('input button')" />
+			<br />
+			<label>submit button</label>
+			<button id = 'btn2' onclick = "alert('button')">button</button>
+		</div>
+		
+		<div class = "div">	
+			<h3>Text field</h3>
+			<label>text field</label>
+			<input type = "text" id = "text" value = "default text field" />
+			<br />
+			<label>text area</label>
+			<textarea id = "area" cols = "40" rows = "20">default text area</textarea>
+		</div>
+		
+		<div class = "div">
+			<h3>Select list</h3>
+			<label>select list</label>
+			<select>
+				<option>0</option>
+				<option id = "op1">1</option>
+				<option>2</option>
+			</select>
+		</div>
+		
+		<div class = "div">
+			<h3>Radio</h3>
+			<label>radio</label>
+			<input type = "radio" name = "radio" />
+		</div>
+		
+		<div class= "div">
+			<h3>Link</h3>
+			<label>link</label>
+			<a href = "#" id = "link" onclick = "alert('You click the link.')">Click me to see the alert.</a>
+		</div>
+		
+		<div class = "div">
+			<h3>CheckBox</h3>
+			<label>checkbox</label>
+			<input type = "checkbox" name = "checkbox" />
+		</div>
+	</body>
+</html>
