@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>Set Timeout</title>
+		<style>
+			.mo {color: blue;}
+			.tips {display:none; border: 1px solid #cc; background-color: #EFEFEF; width: 100px; height:100px;}
+		</style>
+		<script>
+			function show_tips(){
+				document.getElementById("t").style.display = "block";
+			}
+			
+			function hide_tips(){
+				document.getElementById("t").style.display = "none";
+			}
+		</script>
+	</head>
+	<body>
+		<a class = "mo" href = "#" onmouseover = "show_tips()" onmouseout = "hide_tips()">Mouse Over</a>
+		<div id = "t" class = "tips">This is the tips of link.</div>
+	</body>
+</html>
