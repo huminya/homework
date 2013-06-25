@@ -1,0 +1,209 @@
+[0.001][INFO]:      ChromeDriver 26.0.1383.0 C:\RailsInstaller\Ruby1.9.3\bin\chromedriver.exe
+[0.555][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.detach": true,
+   "chromeOptions": {
+      "detach": true
+   },
+   "cssSelectorsEnabled": true,
+   "javascriptEnabled": true,
+   "nativeEvents": false,
+   "platform": "ANY",
+   "rotatable": false,
+   "takesScreenshot": false,
+   "version": ""
+}
+
+[0.556][INFO]:      Using named testing interface
+[1.132][INFO]:      Connected to Chrome successfully. Version: 27.0.1453.116
+[1.142][FINE]:      Command received (/session/ceff29ddfce9230d8eec6a5bb64ae72a)
+[1.142][FINE]:      Command finished (/session/ceff29ddfce9230d8eec6a5bb64ae72a) with response {
+   "sessionId": "ceff29ddfce9230d8eec6a5bb64ae72a",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "26.0.1383.0",
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "27.0.1453.116",
+      "webStorageEnabled": true
+   }
+}
+
+[1.154][FINE]:      Command received (/session/ceff29ddfce9230d8eec6a5bb64ae72a/url) with params {
+   "url": "file:///F:/homework/lesson7(20130623)/08/form.html"
+}
+
+[1.154][FINER]:     Waiting for all views to stop loading...
+[1.155][FINER]:     Done waiting for all views to stop loading
+[1.947][FINER]:     Waiting for all views to stop loading...
+[1.949][FINER]:     Done waiting for all views to stop loading
+[1.949][FINE]:      Command finished (/session/ceff29ddfce9230d8eec6a5bb64ae72a/url) with response {
+   "sessionId": "ceff29ddfce9230d8eec6a5bb64ae72a",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[1.952][FINE]:      Command received (/session/ceff29ddfce9230d8eec6a5bb64ae72a/element) with params {
+   "using": "id",
+   "value": "inputEmail"
+}
+
+[1.952][FINER]:     Waiting for all views to stop loading...
+[1.952][FINER]:     Done waiting for all views to stop loading
+[1.972][FINER]:     Waiting for all views to stop loading...
+[1.972][FINER]:     Done waiting for all views to stop loading
+[1.972][FINE]:      Command finished (/session/ceff29ddfce9230d8eec6a5bb64ae72a/element) with response {
+   "sessionId": "ceff29ddfce9230d8eec6a5bb64ae72a",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1371959734247"
+   }
+}
+
+[2.990][FINE]:      Command received (/session/ceff29ddfce9230d8eec6a5bb64ae72a/element/:wdc:1371959734247/value) with params {
+   "value": [ "myemail@gmail.com" ]
+}
+
+[2.990][FINER]:     Waiting for all views to stop loading...
+[2.991][FINER]:     Done waiting for all views to stop loading
+[3.159][FINER]:     Waiting for all views to stop loading...
+[3.159][FINER]:     Done waiting for all views to stop loading
+[3.159][FINE]:      Command finished (/session/ceff29ddfce9230d8eec6a5bb64ae72a/element/:wdc:1371959734247/value) with response {
+   "sessionId": "ceff29ddfce9230d8eec6a5bb64ae72a",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[6.163][FINE]:      Command received (/session/ceff29ddfce9230d8eec6a5bb64ae72a/element) with params {
+   "using": "name",
+   "value": "password"
+}
+
+[6.163][FINER]:     Waiting for all views to stop loading...
+[6.164][FINER]:     Done waiting for all views to stop loading
+[6.223][FINER]:     Waiting for all views to stop loading...
+[6.223][FINER]:     Done waiting for all views to stop loading
+[6.223][FINE]:      Command finished (/session/ceff29ddfce9230d8eec6a5bb64ae72a/element) with response {
+   "sessionId": "ceff29ddfce9230d8eec6a5bb64ae72a",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1371959734248"
+   }
+}
+
+[6.235][FINE]:      Command received (/session/ceff29ddfce9230d8eec6a5bb64ae72a/element/:wdc:1371959734248/value) with params {
+   "value": [ "mypassword" ]
+}
+
+[6.235][FINER]:     Waiting for all views to stop loading...
+[6.236][FINER]:     Done waiting for all views to stop loading
+[6.332][FINER]:     Waiting for all views to stop loading...
+[6.332][FINER]:     Done waiting for all views to stop loading
+[6.332][FINE]:      Command finished (/session/ceff29ddfce9230d8eec6a5bb64ae72a/element/:wdc:1371959734248/value) with response {
+   "sessionId": "ceff29ddfce9230d8eec6a5bb64ae72a",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[9.337][FINE]:      Command received (/session/ceff29ddfce9230d8eec6a5bb64ae72a/element) with params {
+   "using": "tag name",
+   "value": "form"
+}
+
+[9.337][FINER]:     Waiting for all views to stop loading...
+[9.338][FINER]:     Done waiting for all views to stop loading
+[9.391][FINER]:     Waiting for all views to stop loading...
+[9.392][FINER]:     Done waiting for all views to stop loading
+[9.392][FINE]:      Command finished (/session/ceff29ddfce9230d8eec6a5bb64ae72a/element) with response {
+   "sessionId": "ceff29ddfce9230d8eec6a5bb64ae72a",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1371959734249"
+   }
+}
+
+[9.398][FINE]:      Command received (/session/ceff29ddfce9230d8eec6a5bb64ae72a/element/:wdc:1371959734249/attribute/class)
+[9.398][FINER]:     Waiting for all views to stop loading...
+[9.399][FINER]:     Done waiting for all views to stop loading
+[9.418][FINER]:     Waiting for all views to stop loading...
+[9.419][FINER]:     Done waiting for all views to stop loading
+[9.419][FINE]:      Command finished (/session/ceff29ddfce9230d8eec6a5bb64ae72a/element/:wdc:1371959734249/attribute/class) with response {
+   "sessionId": "ceff29ddfce9230d8eec6a5bb64ae72a",
+   "status": 0,
+   "value": "form-horizontal"
+}
+
+[9.429][FINE]:      Command received (/session/ceff29ddfce9230d8eec6a5bb64ae72a/elements) with params {
+   "using": "class name",
+   "value": "controls"
+}
+
+[9.429][FINER]:     Waiting for all views to stop loading...
+[9.429][FINER]:     Done waiting for all views to stop loading
+[9.457][FINER]:     Waiting for all views to stop loading...
+[9.457][FINER]:     Done waiting for all views to stop loading
+[9.458][FINE]:      Command finished (/session/ceff29ddfce9230d8eec6a5bb64ae72a/elements) with response {
+   "sessionId": "ceff29ddfce9230d8eec6a5bb64ae72a",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1371959734250"
+   }, {
+      "ELEMENT": ":wdc:1371959734251"
+   }, {
+      "ELEMENT": ":wdc:1371959734252"
+   } ]
+}
+
+[9.460][FINE]:      Command received (/session/ceff29ddfce9230d8eec6a5bb64ae72a/execute) with params {
+   "args": [ {
+      "ELEMENT": ":wdc:1371959734251"
+   } ],
+   "script": "arguments[0].style.border = \"3px solid red\""
+}
+
+[9.460][FINER]:     Waiting for all views to stop loading...
+[9.461][FINER]:     Done waiting for all views to stop loading
+[9.465][FINER]:     Waiting for all views to stop loading...
+[9.465][FINER]:     Done waiting for all views to stop loading
+[9.465][FINE]:      Command finished (/session/ceff29ddfce9230d8eec6a5bb64ae72a/execute) with response {
+   "sessionId": "ceff29ddfce9230d8eec6a5bb64ae72a",
+   "status": 0,
+   "value": null
+}
+
+[10.473][FINE]:     Command received (/session/ceff29ddfce9230d8eec6a5bb64ae72a/execute) with params {
+   "args": [ {
+      "ELEMENT": ":wdc:1371959734251"
+   } ],
+   "script": "arguments[0].fadeOut().fadeIn()"
+}
+
+[10.473][FINER]:    Waiting for all views to stop loading...
+[10.473][FINER]:    Done waiting for all views to stop loading
+[10.485][FINER]:    Waiting for all views to stop loading...
+[10.485][FINER]:    Done waiting for all views to stop loading
+[10.486][WARNING]:  Command finished (/session/ceff29ddfce9230d8eec6a5bb64ae72a/execute) with response {
+   "sessionId": "ceff29ddfce9230d8eec6a5bb64ae72a",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: arguments[0].fadeOut().fadeIn();\n Object #\u003CHTMLDivElement\u003E has n..."
+   }
+}
+

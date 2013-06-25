@@ -1,0 +1,96 @@
+[0.001][INFO]:      ChromeDriver 26.0.1383.0 C:\RailsInstaller\Ruby1.9.3\bin\chromedriver.exe
+[0.553][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.detach": true,
+   "chromeOptions": {
+      "detach": true
+   },
+   "cssSelectorsEnabled": true,
+   "javascriptEnabled": true,
+   "nativeEvents": false,
+   "platform": "ANY",
+   "rotatable": false,
+   "takesScreenshot": false,
+   "version": ""
+}
+
+[0.554][INFO]:      Using named testing interface
+[1.213][INFO]:      Connected to Chrome successfully. Version: 27.0.1453.116
+[1.225][FINE]:      Command received (/session/6a51c8282c377c14a86ee5f440da7626)
+[1.225][FINE]:      Command finished (/session/6a51c8282c377c14a86ee5f440da7626) with response {
+   "sessionId": "6a51c8282c377c14a86ee5f440da7626",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "26.0.1383.0",
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "27.0.1453.116",
+      "webStorageEnabled": true
+   }
+}
+
+[1.238][FINE]:      Command received (/session/6a51c8282c377c14a86ee5f440da7626/url) with params {
+   "url": "file:///F:/homework/lesson7(20130623)/13/button_group.html"
+}
+
+[1.238][FINER]:     Waiting for all views to stop loading...
+[1.239][FINER]:     Done waiting for all views to stop loading
+[2.117][FINER]:     Waiting for all views to stop loading...
+[2.117][FINER]:     Done waiting for all views to stop loading
+[2.117][FINE]:      Command finished (/session/6a51c8282c377c14a86ee5f440da7626/url) with response {
+   "sessionId": "6a51c8282c377c14a86ee5f440da7626",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[2.124][FINE]:      Command received (/session/6a51c8282c377c14a86ee5f440da7626/element) with params {
+   "using": "class name",
+   "value": "btn-group"
+}
+
+[2.124][FINER]:     Waiting for all views to stop loading...
+[2.125][FINER]:     Done waiting for all views to stop loading
+[2.150][FINER]:     Waiting for all views to stop loading...
+[2.151][FINER]:     Done waiting for all views to stop loading
+[2.151][FINE]:      Command finished (/session/6a51c8282c377c14a86ee5f440da7626/element) with response {
+   "sessionId": "6a51c8282c377c14a86ee5f440da7626",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1371976843278"
+   }
+}
+
+[2.156][FINE]:      Command received (/session/6a51c8282c377c14a86ee5f440da7626/element/:wdc:1371976843278/elements) with params {
+   "using": "class name",
+   "value": "btn"
+}
+
+[2.156][FINER]:     Waiting for all views to stop loading...
+[2.157][FINER]:     Done waiting for all views to stop loading
+[2.176][FINER]:     Waiting for all views to stop loading...
+[2.176][FINER]:     Done waiting for all views to stop loading
+[2.176][FINE]:      Command finished (/session/6a51c8282c377c14a86ee5f440da7626/element/:wdc:1371976843278/elements) with response {
+   "sessionId": "6a51c8282c377c14a86ee5f440da7626",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1371976843279"
+   }, {
+      "ELEMENT": ":wdc:1371976843280"
+   }, {
+      "ELEMENT": ":wdc:1371976843281"
+   } ]
+}
+

@@ -1,0 +1,174 @@
+[0.001][INFO]:      ChromeDriver 26.0.1383.0 C:\RailsInstaller\Ruby1.9.3\bin\chromedriver.exe
+[0.520][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.detach": true,
+   "chromeOptions": {
+      "detach": true
+   },
+   "cssSelectorsEnabled": true,
+   "javascriptEnabled": true,
+   "nativeEvents": false,
+   "platform": "ANY",
+   "rotatable": false,
+   "takesScreenshot": false,
+   "version": ""
+}
+
+[0.520][INFO]:      Using named testing interface
+[1.236][INFO]:      Connected to Chrome successfully. Version: 27.0.1453.116
+[1.246][FINE]:      Command received (/session/b3babbbb8b7817afae281fb77da378ca)
+[1.246][FINE]:      Command finished (/session/b3babbbb8b7817afae281fb77da378ca) with response {
+   "sessionId": "b3babbbb8b7817afae281fb77da378ca",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "26.0.1383.0",
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "27.0.1453.116",
+      "webStorageEnabled": true
+   }
+}
+
+[1.259][FINE]:      Command received (/session/b3babbbb8b7817afae281fb77da378ca/url) with params {
+   "url": "file:///F:/homework/lesson7(20130623)/11/operate_element.html"
+}
+
+[1.259][FINER]:     Waiting for all views to stop loading...
+[1.260][FINER]:     Done waiting for all views to stop loading
+[2.028][FINER]:     Waiting for all views to stop loading...
+[2.030][FINER]:     Done waiting for all views to stop loading
+[2.030][FINE]:      Command finished (/session/b3babbbb8b7817afae281fb77da378ca/url) with response {
+   "sessionId": "b3babbbb8b7817afae281fb77da378ca",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[2.034][FINE]:      Command received (/session/b3babbbb8b7817afae281fb77da378ca/element) with params {
+   "using": "link text",
+   "value": "Link1"
+}
+
+[2.034][FINER]:     Waiting for all views to stop loading...
+[2.034][FINER]:     Done waiting for all views to stop loading
+[2.062][FINER]:     Waiting for all views to stop loading...
+[2.062][FINER]:     Done waiting for all views to stop loading
+[2.062][FINE]:      Command finished (/session/b3babbbb8b7817afae281fb77da378ca/element) with response {
+   "sessionId": "b3babbbb8b7817afae281fb77da378ca",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1371974686508"
+   }
+}
+
+[2.067][FINE]:      Command received (/session/b3babbbb8b7817afae281fb77da378ca/element/:wdc:1371974686508/click) with params {
+
+}
+
+[2.067][FINER]:     Waiting for all views to stop loading...
+[2.068][FINER]:     Done waiting for all views to stop loading
+[2.125][FINER]:     Waiting for all views to stop loading...
+[2.126][FINER]:     Done waiting for all views to stop loading
+[2.126][FINE]:      Command finished (/session/b3babbbb8b7817afae281fb77da378ca/element/:wdc:1371974686508/click) with response {
+   "sessionId": "b3babbbb8b7817afae281fb77da378ca",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[3.153][FINE]:      Command received (/session/b3babbbb8b7817afae281fb77da378ca/element) with params {
+   "using": "link text",
+   "value": "Link2"
+}
+
+[3.153][FINER]:     Waiting for all views to stop loading...
+[3.154][FINER]:     Done waiting for all views to stop loading
+[3.283][FINER]:     Waiting for all views to stop loading...
+[3.284][FINER]:     Done waiting for all views to stop loading
+[3.284][FINE]:      Command finished (/session/b3babbbb8b7817afae281fb77da378ca/element) with response {
+   "sessionId": "b3babbbb8b7817afae281fb77da378ca",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1371974686509"
+   }
+}
+
+[3.297][FINE]:      Command received (/session/b3babbbb8b7817afae281fb77da378ca/element/:wdc:1371974686509/click) with params {
+
+}
+
+[3.297][FINER]:     Waiting for all views to stop loading...
+[3.298][FINER]:     Done waiting for all views to stop loading
+[3.499][FINER]:     Waiting for all views to stop loading...
+[3.499][FINER]:     Done waiting for all views to stop loading
+[3.499][FINE]:      Command finished (/session/b3babbbb8b7817afae281fb77da378ca/element/:wdc:1371974686509/click) with response {
+   "sessionId": "b3babbbb8b7817afae281fb77da378ca",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[3.509][FINE]:      Command received (/session/b3babbbb8b7817afae281fb77da378ca/element) with params {
+   "using": "name",
+   "value": "q"
+}
+
+[3.509][FINER]:     Waiting for all views to stop loading...
+[3.510][FINER]:     Done waiting for all views to stop loading
+[3.625][FINER]:     Waiting for all views to stop loading...
+[3.625][FINER]:     Done waiting for all views to stop loading
+[3.626][FINE]:      Command finished (/session/b3babbbb8b7817afae281fb77da378ca/element) with response {
+   "sessionId": "b3babbbb8b7817afae281fb77da378ca",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1371974686510"
+   }
+}
+
+[3.632][FINE]:      Command received (/session/b3babbbb8b7817afae281fb77da378ca/element/:wdc:1371974686510/value) with params {
+   "value": [ "something to say" ]
+}
+
+[3.632][FINER]:     Waiting for all views to stop loading...
+[3.638][FINER]:     Done waiting for all views to stop loading
+[4.000][FINER]:     Waiting for all views to stop loading...
+[4.000][FINER]:     Done waiting for all views to stop loading
+[4.000][FINE]:      Command finished (/session/b3babbbb8b7817afae281fb77da378ca/element/:wdc:1371974686510/value) with response {
+   "sessionId": "b3babbbb8b7817afae281fb77da378ca",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[6.010][FINE]:      Command received (/session/b3babbbb8b7817afae281fb77da378ca/element/:wdc:1371974686510/clear) with params {
+
+}
+
+[6.010][FINER]:     Waiting for all views to stop loading...
+[6.010][FINER]:     Done waiting for all views to stop loading
+[6.038][FINER]:     Waiting for all views to stop loading...
+[6.038][FINER]:     Done waiting for all views to stop loading
+[6.038][FINE]:      Command finished (/session/b3babbbb8b7817afae281fb77da378ca/element/:wdc:1371974686510/clear) with response {
+   "sessionId": "b3babbbb8b7817afae281fb77da378ca",
+   "status": 0,
+   "value": null
+}
+
+[9.042][FINE]:      Command received (/session/b3babbbb8b7817afae281fb77da378ca)
+[19.106][WARNING]:  Chrome still running, terminating...
+[19.106][INFO]:     Chrome shutdown

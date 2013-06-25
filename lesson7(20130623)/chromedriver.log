@@ -1,0 +1,175 @@
+[-0.000][INFO]:     ChromeDriver 26.0.1383.0 C:\RailsInstaller\Ruby1.9.3\bin\chromedriver.exe
+[0.533][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.detach": true,
+   "chromeOptions": {
+      "detach": true
+   },
+   "cssSelectorsEnabled": true,
+   "javascriptEnabled": true,
+   "nativeEvents": false,
+   "platform": "ANY",
+   "rotatable": false,
+   "takesScreenshot": false,
+   "version": ""
+}
+
+[0.534][INFO]:      Using named testing interface
+[1.167][INFO]:      Connected to Chrome successfully. Version: 27.0.1453.116
+[1.182][FINE]:      Command received (/session/f17910f6df9c60c4bc96d3caa305a7cc)
+[1.182][FINE]:      Command finished (/session/f17910f6df9c60c4bc96d3caa305a7cc) with response {
+   "sessionId": "f17910f6df9c60c4bc96d3caa305a7cc",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "26.0.1383.0",
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "27.0.1453.116",
+      "webStorageEnabled": true
+   }
+}
+
+[2.194][FINE]:      Command received (/session/f17910f6df9c60c4bc96d3caa305a7cc/url) with params {
+   "url": "http://www.sina.com.cn"
+}
+
+[2.194][FINER]:     Waiting for all views to stop loading...
+[2.195][FINER]:     Done waiting for all views to stop loading
+[8.071][FINER]:     Waiting for all views to stop loading...
+[8.073][FINER]:     Done waiting for all views to stop loading
+[8.073][FINE]:      Command finished (/session/f17910f6df9c60c4bc96d3caa305a7cc/url) with response {
+   "sessionId": "f17910f6df9c60c4bc96d3caa305a7cc",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[13.078][FINE]:     Command received (/session/f17910f6df9c60c4bc96d3caa305a7cc/title)
+[13.078][FINER]:    Waiting for all views to stop loading...
+[13.079][FINER]:    Done waiting for all views to stop loading
+[13.085][FINER]:    Waiting for all views to stop loading...
+[13.085][FINER]:    Done waiting for all views to stop loading
+[13.085][FINE]:     Command finished (/session/f17910f6df9c60c4bc96d3caa305a7cc/title) with response {
+   "sessionId": "f17910f6df9c60c4bc96d3caa305a7cc",
+   "status": 0,
+   "value": "\u65B0\u6D6A\u9996\u9875"
+}
+
+[13.090][FINE]:     Command received (/session/f17910f6df9c60c4bc96d3caa305a7cc/url)
+[13.090][FINER]:    Waiting for all views to stop loading...
+[13.090][FINER]:    Done waiting for all views to stop loading
+[13.096][FINER]:    Waiting for all views to stop loading...
+[13.096][FINER]:    Done waiting for all views to stop loading
+[13.096][FINE]:     Command finished (/session/f17910f6df9c60c4bc96d3caa305a7cc/url) with response {
+   "sessionId": "f17910f6df9c60c4bc96d3caa305a7cc",
+   "status": 0,
+   "value": "http://www.sina.com.cn/"
+}
+
+[18.106][FINE]:     Command received (/session/f17910f6df9c60c4bc96d3caa305a7cc/url) with params {
+   "url": "http://sports.sina.com.cn"
+}
+
+[18.106][FINER]:    Waiting for all views to stop loading...
+[18.106][FINER]:    Done waiting for all views to stop loading
+[26.529][FINER]:    Waiting for all views to stop loading...
+[26.530][FINER]:    Done waiting for all views to stop loading
+[26.530][FINE]:     Command finished (/session/f17910f6df9c60c4bc96d3caa305a7cc/url) with response {
+   "sessionId": "f17910f6df9c60c4bc96d3caa305a7cc",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[31.540][FINE]:     Command received (/session/f17910f6df9c60c4bc96d3caa305a7cc/title)
+[31.540][FINER]:    Waiting for all views to stop loading...
+[31.541][FINER]:    Done waiting for all views to stop loading
+[31.548][FINER]:    Waiting for all views to stop loading...
+[31.549][FINER]:    Done waiting for all views to stop loading
+[31.549][FINE]:     Command finished (/session/f17910f6df9c60c4bc96d3caa305a7cc/title) with response {
+   "sessionId": "f17910f6df9c60c4bc96d3caa305a7cc",
+   "status": 0,
+   "value": "\u65B0\u6D6A\u7ADE\u6280\u98CE\u66B4_\u65B0\u6D6A\u7F51"
+}
+
+[31.552][FINE]:     Command received (/session/f17910f6df9c60c4bc96d3caa305a7cc/url)
+[31.552][FINER]:    Waiting for all views to stop loading...
+[31.553][FINER]:    Done waiting for all views to stop loading
+[31.558][FINER]:    Waiting for all views to stop loading...
+[31.561][FINER]:    Done waiting for all views to stop loading
+[31.562][FINE]:     Command finished (/session/f17910f6df9c60c4bc96d3caa305a7cc/url) with response {
+   "sessionId": "f17910f6df9c60c4bc96d3caa305a7cc",
+   "status": 0,
+   "value": "http://sports.sina.com.cn/"
+}
+
+[36.568][FINE]:     Command received (/session/f17910f6df9c60c4bc96d3caa305a7cc/back) with params {
+
+}
+
+[36.568][FINER]:    Waiting for all views to stop loading...
+[36.569][FINER]:    Done waiting for all views to stop loading
+[38.494][FINER]:    Waiting for all views to stop loading...
+[38.494][FINER]:    Done waiting for all views to stop loading
+[38.494][FINE]:     Command finished (/session/f17910f6df9c60c4bc96d3caa305a7cc/back) with response {
+   "sessionId": "f17910f6df9c60c4bc96d3caa305a7cc",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[43.497][FINE]:     Command received (/session/f17910f6df9c60c4bc96d3caa305a7cc/url)
+[43.497][FINER]:    Waiting for all views to stop loading...
+[43.497][FINER]:    Done waiting for all views to stop loading
+[43.501][FINER]:    Waiting for all views to stop loading...
+[43.501][FINER]:    Done waiting for all views to stop loading
+[43.501][FINE]:     Command finished (/session/f17910f6df9c60c4bc96d3caa305a7cc/url) with response {
+   "sessionId": "f17910f6df9c60c4bc96d3caa305a7cc",
+   "status": 0,
+   "value": "http://www.sina.com.cn/"
+}
+
+[48.510][FINE]:     Command received (/session/f17910f6df9c60c4bc96d3caa305a7cc/forward) with params {
+
+}
+
+[48.510][FINER]:    Waiting for all views to stop loading...
+[48.510][FINER]:    Done waiting for all views to stop loading
+[51.626][FINER]:    Waiting for all views to stop loading...
+[51.626][FINER]:    Done waiting for all views to stop loading
+[51.626][FINE]:     Command finished (/session/f17910f6df9c60c4bc96d3caa305a7cc/forward) with response {
+   "sessionId": "f17910f6df9c60c4bc96d3caa305a7cc",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[51.630][FINE]:     Command received (/session/f17910f6df9c60c4bc96d3caa305a7cc/url)
+[51.630][FINER]:    Waiting for all views to stop loading...
+[51.630][FINER]:    Done waiting for all views to stop loading
+[51.637][FINER]:    Waiting for all views to stop loading...
+[51.638][FINER]:    Done waiting for all views to stop loading
+[51.638][FINE]:     Command finished (/session/f17910f6df9c60c4bc96d3caa305a7cc/url) with response {
+   "sessionId": "f17910f6df9c60c4bc96d3caa305a7cc",
+   "status": 0,
+   "value": "http://sports.sina.com.cn/"
+}
+
+[51.643][FINE]:     Command received (/session/f17910f6df9c60c4bc96d3caa305a7cc)
+[61.793][WARNING]:  Chrome still running, terminating...
+[61.793][INFO]:     Chrome shutdown
