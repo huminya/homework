@@ -1,0 +1,1 @@
+require 'selenium-webdriver'dr = Selenium::WebDriver.for :chromeurl1 = 'http://www.163.com'url2 = 'http://news.163.com'dr.get url1sleep 5dr.get url2sleep 5puts "the current page's url is #{dr.current_url}, ready to back"dr.navigate.back()sleep 3puts "the current page's url is #{dr.current_url}, ready to forward"dr.navigate.forward()sleep 3dr.quit()
