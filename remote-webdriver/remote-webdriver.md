@@ -1,18 +1,18 @@
-Ô¶³Ì»úÆ÷£º
-1.ÏÂÔØ²¢°²×°jdk1.6£¬
-2.ÏÂÔØ²¢°²×°selenium-server-standalone-2.33.0.jar
-3.ÏÂÔØwebdriver£ºIEdriver.exeºÍchromedriver.exe¡£½¨Òé½²ÕâÐ©driver·ÅÔÚwindows/SYSTEM32/Ä¿Â¼ÏÂ
-4.ÔÚcmdÏÂÖ´ÐÐjava -jar selenium-server-standalone-2.33.0.jar£»ÌáÊ¾ÒÑ¾­´ò¿ª4444¶Ë¿Ú¼´Îª³É¹¦
+è¿œç¨‹æœºå™¨ï¼š
+1.ä¸‹è½½å¹¶å®‰è£…jdk1.6ï¼Œ
+2.ä¸‹è½½å¹¶å®‰è£…selenium-server-standalone-2.33.0.jar
+3.ä¸‹è½½webdriverï¼šIEdriver.exeå’Œchromedriver.exeã€‚å»ºè®®è®²è¿™äº›driveræ”¾åœ¨windows/SYSTEM32/ç›®å½•ä¸‹
+4.åœ¨cmdä¸‹æ‰§è¡Œjava -jar selenium-server-standalone-2.33.0.jarï¼›æç¤ºå·²ç»æ‰“å¼€4444ç«¯å£å³ä¸ºæˆåŠŸ
 
-¿Í»§¶Ë£º
-1.Ô¶³Ì·ÃÎÊÔ¶³Ìhttp://server:4444/wd/hub£¬¿ÉÒÔ·ÃÎÊserverµÄÍ³¼ÆÒ³Ãæ
+å®¢æˆ·ç«¯ï¼š
+1.è¿œç¨‹è®¿é—®è¿œç¨‹http://server:4444/wd/hubï¼Œå¯ä»¥è®¿é—®serverçš„ç»Ÿè®¡é¡µé¢
 
-2.selenium-webdriver´úÂë
+2.selenium-webdriverä»£ç 
 require 'selenium-webdriver'
 dr = Selenium::WebDriver.for(:remote, :url => "http://xxx.xxx.xxx.xxx:4444/wd/hub", :desired_capabilities => :chrome)
-*²»Ö¸¶¨ä¯ÀÀÆ÷Ê±£¬Ä¬ÈÏÊÇµ÷firefox
+*ä¸æŒ‡å®šæµè§ˆå™¨æ—¶ï¼Œé»˜è®¤æ˜¯è°ƒfirefox
 
-3.watir-webdriver´úÂë
+3.watir-webdriverä»£ç 
 require "watir-webdriver"  
 require "selenium/webdriver/remote/capabilities"  
 browser = Watir::Browser.new :remote, :url => "http://xxx.xxx.xxx.xxx:4444/wd/hub", :desired_capabilities => Selenium::WebDriver::Remote::Capabilities.chrome
