@@ -10,7 +10,7 @@ dr = Selenium::WebDriver.for(:remote, :url => "http://192.168.1.xxx:4444/wd/hub"
 # start remote server with ff(default)
 dr = Selenium::WebDriver.for(:remote, :url => "http://192.168.1.xxx:4444/wd/hub")
 
-dr.navigate.to 'http://192.168.1.223/login.php'
+dr.navigate.to 'http://192.168.1.xxx/login.php'
 
 sleep 5
 

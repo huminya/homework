@@ -1,4 +1,4 @@
-远程机器：
+远程机器：(windows系统)
 1.下载并安装jdk1.6，
 2.下载并安装selenium-server-standalone-2.33.0.jar
 3.下载webdriver：IEdriver.exe和chromedriver.exe。建议讲这些driver放在windows/SYSTEM32/目录下
