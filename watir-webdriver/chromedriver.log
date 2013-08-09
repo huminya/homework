@@ -1,0 +1,79 @@
+[0.000][INFO]:      ChromeDriver 26.0.1383.0 C:\RailsInstaller\Ruby1.9.3\bin\chromedriver.exe
+[0.541][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.detach": true,
+   "chromeOptions": {
+      "detach": true
+   },
+   "cssSelectorsEnabled": true,
+   "javascriptEnabled": true,
+   "nativeEvents": false,
+   "platform": "ANY",
+   "rotatable": false,
+   "takesScreenshot": false,
+   "version": ""
+}
+
+[0.541][INFO]:      Using named testing interface
+[1.247][INFO]:      Connected to Chrome successfully. Version: 26.0.1410.64
+[1.259][FINE]:      Command received (/session/87539c167c045d453a43f30ee909a8c1)
+[1.259][FINE]:      Command finished (/session/87539c167c045d453a43f30ee909a8c1) with response {
+   "sessionId": "87539c167c045d453a43f30ee909a8c1",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "26.0.1383.0",
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "26.0.1410.64",
+      "webStorageEnabled": true
+   }
+}
+
+[1.272][FINE]:      Command received (/session/87539c167c045d453a43f30ee909a8c1/url) with params {
+   "url": "http://www.infoq.com/cn/development/articles/7"
+}
+
+[1.272][FINER]:     Waiting for all views to stop loading...
+[1.272][FINER]:     Done waiting for all views to stop loading
+[11.769][FINER]:    Waiting for all views to stop loading...
+[11.770][FINER]:    Done waiting for all views to stop loading
+[11.770][FINE]:     Command finished (/session/87539c167c045d453a43f30ee909a8c1/url) with response {
+   "sessionId": "87539c167c045d453a43f30ee909a8c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[13.777][FINE]:     Command received (/session/87539c167c045d453a43f30ee909a8c1/elements) with params {
+   "using": "class name",
+   "value": "news_type1"
+}
+
+[13.777][FINER]:    Waiting for all views to stop loading...
+[13.778][FINER]:    Done waiting for all views to stop loading
+[13.829][FINER]:    Waiting for all views to stop loading...
+[13.829][FINER]:    Done waiting for all views to stop loading
+[13.830][FINE]:     Command finished (/session/87539c167c045d453a43f30ee909a8c1/elements) with response {
+   "sessionId": "87539c167c045d453a43f30ee909a8c1",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1376057315821"
+   }, {
+      "ELEMENT": ":wdc:1376057315822"
+   }, {
+      "ELEMENT": ":wdc:1376057315823"
+   } ]
+}
+

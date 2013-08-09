@@ -1,0 +1,4 @@
+---
+one:
+  keyword=: '<%= 1.day.ago %>'
+  search_element: 'click'

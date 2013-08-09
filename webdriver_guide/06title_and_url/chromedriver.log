@@ -1,0 +1,83 @@
+[0.001][INFO]:      ChromeDriver 26.0.1383.0 C:\RailsInstaller\Ruby1.9.3\bin\chromedriver.exe
+[0.537][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.detach": true,
+   "chromeOptions": {
+      "detach": true
+   },
+   "cssSelectorsEnabled": true,
+   "javascriptEnabled": true,
+   "nativeEvents": false,
+   "platform": "ANY",
+   "rotatable": false,
+   "takesScreenshot": false,
+   "version": ""
+}
+
+[0.537][INFO]:      Using named testing interface
+[1.154][INFO]:      Connected to Chrome successfully. Version: 26.0.1410.5
+[1.177][FINE]:      Command received (/session/bc1eabad19894064d9c61be54918515b)
+[1.183][FINE]:      Command finished (/session/bc1eabad19894064d9c61be54918515b) with response {
+   "sessionId": "bc1eabad19894064d9c61be54918515b",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "26.0.1383.0",
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "26.0.1410.5",
+      "webStorageEnabled": true
+   }
+}
+
+[1.187][FINE]:      Command received (/session/bc1eabad19894064d9c61be54918515b/url) with params {
+   "url": "http://www.163.com"
+}
+
+[1.187][FINER]:     Waiting for all views to stop loading...
+[1.187][FINER]:     Done waiting for all views to stop loading
+[16.493][FINER]:    Waiting for all views to stop loading...
+[16.494][FINER]:    Done waiting for all views to stop loading
+[16.494][FINE]:     Command finished (/session/bc1eabad19894064d9c61be54918515b/url) with response {
+   "sessionId": "bc1eabad19894064d9c61be54918515b",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[16.505][FINE]:     Command received (/session/bc1eabad19894064d9c61be54918515b/title)
+[16.505][FINER]:    Waiting for all views to stop loading...
+[16.506][FINER]:    Done waiting for all views to stop loading
+[16.511][FINER]:    Waiting for all views to stop loading...
+[16.511][FINER]:    Done waiting for all views to stop loading
+[16.511][FINE]:     Command finished (/session/bc1eabad19894064d9c61be54918515b/title) with response {
+   "sessionId": "bc1eabad19894064d9c61be54918515b",
+   "status": 0,
+   "value": "\u7F51\u6613"
+}
+
+[16.517][FINE]:     Command received (/session/bc1eabad19894064d9c61be54918515b/url)
+[16.517][FINER]:    Waiting for all views to stop loading...
+[16.517][FINER]:    Done waiting for all views to stop loading
+[16.521][FINER]:    Waiting for all views to stop loading...
+[16.521][FINER]:    Done waiting for all views to stop loading
+[16.521][FINE]:     Command finished (/session/bc1eabad19894064d9c61be54918515b/url) with response {
+   "sessionId": "bc1eabad19894064d9c61be54918515b",
+   "status": 0,
+   "value": "http://www.163.com/"
+}
+
+[18.529][FINE]:     Command received (/session/bc1eabad19894064d9c61be54918515b)
+[28.645][WARNING]:  Chrome still running, terminating...
+[28.645][INFO]:     Chrome shutdown

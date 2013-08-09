@@ -1,0 +1,181 @@
+[0.001][INFO]:      ChromeDriver 26.0.1383.0 C:\RailsInstaller\Ruby1.9.3\bin\chromedriver.exe
+[0.547][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.detach": true,
+   "chromeOptions": {
+      "detach": true
+   },
+   "cssSelectorsEnabled": true,
+   "javascriptEnabled": true,
+   "nativeEvents": false,
+   "platform": "ANY",
+   "rotatable": false,
+   "takesScreenshot": false,
+   "version": ""
+}
+
+[0.548][INFO]:      Using named testing interface
+[1.157][INFO]:      Connected to Chrome successfully. Version: 27.0.1453.116
+[1.173][FINE]:      Command received (/session/5df0485eaa74f2cb2c772e90e95508dd)
+[1.173][FINE]:      Command finished (/session/5df0485eaa74f2cb2c772e90e95508dd) with response {
+   "sessionId": "5df0485eaa74f2cb2c772e90e95508dd",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "26.0.1383.0",
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "27.0.1453.116",
+      "webStorageEnabled": true
+   }
+}
+
+[1.174][FINE]:      Command received (/session/5df0485eaa74f2cb2c772e90e95508dd/url) with params {
+   "url": "http://www.baidu.com"
+}
+
+[1.174][FINER]:     Waiting for all views to stop loading...
+[1.175][FINER]:     Done waiting for all views to stop loading
+[1.620][FINER]:     Waiting for all views to stop loading...
+[1.622][FINER]:     Done waiting for all views to stop loading
+[1.622][FINE]:      Command finished (/session/5df0485eaa74f2cb2c772e90e95508dd/url) with response {
+   "sessionId": "5df0485eaa74f2cb2c772e90e95508dd",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[1.627][FINE]:      Command received (/session/5df0485eaa74f2cb2c772e90e95508dd/cookie)
+[1.627][FINER]:     Waiting for all views to stop loading...
+[1.628][FINER]:     Done waiting for all views to stop loading
+[1.633][FINER]:     Waiting for all views to stop loading...
+[1.634][FINER]:     Done waiting for all views to stop loading
+[1.634][FINE]:      Command finished (/session/5df0485eaa74f2cb2c772e90e95508dd/cookie) with response {
+   "sessionId": "5df0485eaa74f2cb2c772e90e95508dd",
+   "status": 0,
+   "value": [ {
+      "domain": "www.baidu.com",
+      "http_only": false,
+      "name": "BDSVRTM",
+      "path": "/",
+      "secure": false,
+      "value": "2"
+   }, {
+      "domain": ".baidu.com",
+      "http_only": false,
+      "name": "H_PS_PSSID",
+      "path": "/",
+      "secure": false,
+      "value": "2758_1445_2704_2487_1788_2249_2252_2701"
+   }, {
+      "domain": ".baidu.com",
+      "expiry": 2319262453.275169,
+      "http_only": false,
+      "name": "BAIDUID",
+      "path": "/",
+      "secure": false,
+      "value": "91B219BF11A65396A7B400E80352B210:FG=1"
+   } ]
+}
+
+[1.638][FINE]:      Command received (/session/5df0485eaa74f2cb2c772e90e95508dd/cookie)
+[1.638][FINER]:     Waiting for all views to stop loading...
+[1.638][FINER]:     Done waiting for all views to stop loading
+[1.641][FINER]:     Waiting for all views to stop loading...
+[1.641][FINER]:     Done waiting for all views to stop loading
+[1.641][FINE]:      Command finished (/session/5df0485eaa74f2cb2c772e90e95508dd/cookie) with response {
+   "sessionId": "5df0485eaa74f2cb2c772e90e95508dd",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[1.649][FINE]:      Command received (/session/5df0485eaa74f2cb2c772e90e95508dd/cookie) with params {
+   "cookie": {
+      "name": "BAIDUID",
+      "path": "/",
+      "secure": false,
+      "value": "B7233094AA7AFF8CF306ED65C172EFB2:FG=1"
+   }
+}
+
+[1.649][FINER]:     Waiting for all views to stop loading...
+[1.649][FINER]:     Done waiting for all views to stop loading
+[1.651][FINER]:     Waiting for all views to stop loading...
+[1.651][FINER]:     Done waiting for all views to stop loading
+[1.651][FINE]:      Command finished (/session/5df0485eaa74f2cb2c772e90e95508dd/cookie) with response {
+   "sessionId": "5df0485eaa74f2cb2c772e90e95508dd",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[1.660][FINE]:      Command received (/session/5df0485eaa74f2cb2c772e90e95508dd/cookie) with params {
+   "cookie": {
+      "name": "BDUSS",
+      "path": "/",
+      "secure": false,
+      "value": "xyWks2VlF5d1BWS35BVU9pSzNjMmItYWctWXFsdng0dnJGSUN1eVg4eU1hfmRSQVFBQUFBJCQAAAAAAAAAAAEAAABsJVEsaG9..."
+   }
+}
+
+[1.660][FINER]:     Waiting for all views to stop loading...
+[1.660][FINER]:     Done waiting for all views to stop loading
+[1.662][FINER]:     Waiting for all views to stop loading...
+[1.662][FINER]:     Done waiting for all views to stop loading
+[1.662][FINE]:      Command finished (/session/5df0485eaa74f2cb2c772e90e95508dd/cookie) with response {
+   "sessionId": "5df0485eaa74f2cb2c772e90e95508dd",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[2.672][FINE]:      Command received (/session/5df0485eaa74f2cb2c772e90e95508dd/refresh) with params {
+
+}
+
+[2.672][FINER]:     Waiting for all views to stop loading...
+[2.673][FINER]:     Done waiting for all views to stop loading
+[3.278][FINER]:     Waiting for all views to stop loading...
+[3.280][FINER]:     Done waiting for all views to stop loading
+[3.280][FINE]:      Command finished (/session/5df0485eaa74f2cb2c772e90e95508dd/refresh) with response {
+   "sessionId": "5df0485eaa74f2cb2c772e90e95508dd",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[3.283][FINE]:      Command received (/session/5df0485eaa74f2cb2c772e90e95508dd/url) with params {
+   "url": "http://www.baidu.com"
+}
+
+[3.283][FINER]:     Waiting for all views to stop loading...
+[3.284][FINER]:     Done waiting for all views to stop loading
+[3.628][FINER]:     Waiting for all views to stop loading...
+[3.631][FINER]:     Done waiting for all views to stop loading
+[3.631][FINE]:      Command finished (/session/5df0485eaa74f2cb2c772e90e95508dd/url) with response {
+   "sessionId": "5df0485eaa74f2cb2c772e90e95508dd",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[13.642][FINE]:     Command received (/session/5df0485eaa74f2cb2c772e90e95508dd)
+[23.737][WARNING]:  Chrome still running, terminating...
+[23.737][INFO]:     Chrome shutdown
